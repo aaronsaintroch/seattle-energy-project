@@ -1,27 +1,14 @@
-# Environnement virtuel
 .venv/
-
-# Cache Python
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-
-# Jupyter
 .ipynb_checkpoints/
-
-# IDE / OS
 .idea/
 .DS_Store
-
-# Données
 data/raw/*.csv
 data/processed/*
-
-# Garder les dossiers
 !data/raw/.gitkeep
 !data/processed/.gitkeep
-
-# Temporaires
 *.log
 *.tmp
