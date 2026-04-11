@@ -194,17 +194,15 @@ Contient :
 
 Le projet comprend également plusieurs supports de présentation :
 
-- `Seattle_Energy_Storytelling`
-- `Seattle_Energy_Results_Presentation`
-- `Seattle_Energy_Project_Presentation`
+- [Présentation storytelling](figures/notesbooks/presentations/Seattle_Energy_Storytelling.key)
+- [Présentation résultats](figures/notesbooks/presentations/Seattle_Energy_Results_Presentation.key)
+- [Présentation projet](figures/notesbooks/presentations/Seattle_Energy_Project_Presentation%202.key)
 
-> Il est recommandé d’ajouter dans le dépôt des versions **`.pdf`** ou **`.pptx`** en plus des fichiers **`.key`**, afin de faciliter leur lecture sur GitHub.
-
+> Pour une meilleure compatibilité GitHub, il est recommandé d’ajouter également des versions **`.pdf`** ou **`.pptx`**.
 ---
 
 ## 🗂️ Structure du projet
 
-```text
 PythonProject3/
 ├── data/
 │   ├── raw/
@@ -215,15 +213,18 @@ PythonProject3/
 │   └── processed/
 │       └── .gitkeep
 ├── figures/
+│   └── notesbooks/
+│       └── presentations/
+│           ├── Seattle_Energy_Project_Presentation 2.key
+│           ├── Seattle_Energy_Results_Presentation.key
+│           └── Seattle_Energy_Storytelling.key
 ├── notebooks/
 │   ├── P3_Seattle_Energy.ipynb
 │   └── P3_Seattle_Energy_historical.ipynb
-├── presentations/
 ├── scripts/
 ├── .editorconfig
 ├── .gitignore
 └── README.md
-```
 
 ---
 
@@ -233,9 +234,8 @@ Le projet comprend notamment :
 
 - le notebook principal ;
 - le notebook historique ;
-- une présentation de soutenance ;
+- plusieurs présentations de soutenance au format `.key` ;
 - les graphiques utilisés pour l’analyse et la communication.
-
 ---
 
 ## 🖥️ Environnement technique
