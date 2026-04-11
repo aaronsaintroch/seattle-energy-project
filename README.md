@@ -56,11 +56,10 @@ Ils doivent être placés localement dans :
 
 ```text
 data/raw/
-```
+
 
 Structure attendue :
 
-```text
 PythonProject3/
 ├── data/
 │   ├── raw/
@@ -192,17 +191,25 @@ Contient :
 
 ## 📎 Présentations
 
-Le projet comprend également plusieurs supports de présentation :
+Pour faciliter la lecture du projet, les supports sont disponibles en deux formats :
 
-- [Présentation storytelling](figures/notesbooks/presentations/Seattle_Energy_Storytelling.key)
-- [Présentation résultats](figures/notesbooks/presentations/Seattle_Energy_Results_Presentation.key)
-- [Présentation projet](figures/notesbooks/presentations/Seattle_Energy_Project_Presentation%202.key)
+- **PDF** : consultation rapide et compatible GitHub
+- **KEY** : version éditable Apple Keynote
 
-> Pour une meilleure compatibilité GitHub, il est recommandé d’ajouter également des versions **`.pdf`** ou **`.pptx`**.
----
+### Storytelling
+- [Version PDF](figures/notesbooks/presentations/Seattle_Energy_Storytelling.pdf)
+- [Version Keynote](figures/notesbooks/presentations/Seattle_Energy_Storytelling.key)
+
+### Résultats
+- [Version PDF](figures/notesbooks/presentations/Seattle_Energy_Results_Presentation.pdf)
+- [Version Keynote](figures/notesbooks/presentations/Seattle_Energy_Results_Presentation.key)
+
+### Présentation projet
+- [Version PDF](<figures/notesbooks/presentations/Seattle_Energy_Project_Presentation 2.pdf>)
+- [Version Keynote](<figures/notesbooks/presentations/Seattle_Energy_Project_Presentation 2.key>)
 
 ## 🗂️ Structure du projet
-
+```text
 PythonProject3/
 ├── data/
 │   ├── raw/
@@ -226,8 +233,7 @@ PythonProject3/
 ├── .gitignore
 └── README.md
 
----
-
+```text
 ## 📦 Livrables
 
 Le projet comprend notamment :
